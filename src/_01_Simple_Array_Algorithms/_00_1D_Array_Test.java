@@ -42,9 +42,7 @@ public class _00_1D_Array_Test {
 	
 	@Test 
 	public void testGetIndex(){
-		int[] arr = {0, 0, 0};
-		assertEquals(0, _00_1D_Array_Methods.getIndex(arr, 0));
-		
+	
 		int[] arr2 = {1, 2, 3, 4};
 		assertEquals(3, _00_1D_Array_Methods.getIndex(arr2, 4));
 		
